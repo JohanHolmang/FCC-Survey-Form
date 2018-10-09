@@ -13,11 +13,25 @@
 
 <body>
   <h1 id="title">Survey</h1>  
-id="description"
-  <p > we know ours is the best</p>
+
+<p id="description" class="box">
+  we know ours is the best
+</p>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-<form id="survey-form"></form>
+<form id="survey-form"> 
+<div class="labels">
+    <label id="name-label" for="name">* Name: </label>
+</div>
+  
+<div class="right tab">
+  <input autofocus="" name="name" id="name" class="input-field" placeholder="Enter your name" required="" type="text">
+</div>
+  <label for="email" id="email"></label>
+  <label for="number" id="number"></label>
+
+
+</form>
 
 
 </body>
