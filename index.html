@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FCC Survey Form</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
 
 </head>
 
@@ -34,12 +34,13 @@
   <label id="email-label" for="email">* Email: </label>
   </div>
   <div class="right tab">
-    <input type="email" name="email" id="email" class="input-field" required="" placeholder="Enter your Email">
+    <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
   </div>
   <div class="row tab">
       <label id="number-label" for="number">* number: </label>
       </div>
-      <input type="number" name="number" id="number" class="input-field" required="" placeholder="Enter your Number">
+      <div class="labels">
+      <input type="number" name="number" id="number" class="input-field" required placeholder="Enter your age" min="3" max="200">
 </div>
 <select id="dropdown" name="currentPos" class="dropdown">
     <option disabled="" value="">Select an option</option>

@@ -2,7 +2,7 @@ html,
 body {
     font-family: 'K2D', sans-serif;
     text-align: center;
-    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+    background-image: url(F100004515.jpg);
     color: rgb(174, 0, 255);
    margin: 20px;
    padding: 0px;
@@ -32,7 +32,7 @@ img {
 
 #survey-form {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     width: 100%;
 }
 
@@ -41,4 +41,9 @@ img {
     margin: 10px;
     border-radius: 4px;
     padding: 25px;
+}
+
+#dropdown {
+font-size: 25px;
+
 }
