@@ -1,5 +1,5 @@
 body {
-    /* background-color: rgb(115, 255, 0); */
+    /* background-color: #FFE4E1; */
     background: linear-gradient(100deg, #5EFC8D, #DD6868);
 }
 
@@ -101,7 +101,7 @@ textarea {
 }
 
 #submit {
-    /* background: #C6C9A9; */
+    /* background: #FFE4E1; */
     font-family: Roboto;
     border-radius: 4px;
     font-size: 23px;
@@ -122,8 +122,14 @@ label:hover {
     body {
         font-size: 9px;
     }
+}
 
-    .DissGuy {
-        font-size: 60px;
-        font
-    }
+.DissGuy {
+    font-size: 40px;
+    color: #DD6868
+}
+
+/* 
+.lol {
+    font-size: 60px;
+} */
