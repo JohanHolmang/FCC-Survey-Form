@@ -10,20 +10,26 @@
   <script src="main.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
 </head>
+
 
 <body>
 
-
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
   <header>
-    <div id="title">
-      <h1>Survey Form</h1>
+    <h1 id="title">Survey Form</h1>
   </header>
+
+  <div class="DissGuy">
+    <i class="fab fa-accessible-icon"></i>
+  </div>
 
   <form id="survey-form">
 
-    <div id="description"> Let us know how we can improve our service</div><br>
+    <p id="description"> Let us know how we can improve our service</p><br>
 
     <fieldset class="fieldset">
 
@@ -45,18 +51,20 @@
       </div>
 
       <div class="sub-group">
-        <label class="left" id="handphone-label" for="handphone">*Handphone:</label>
+        <label class="left" id="phone-label" for="phone">*phone:</label>
 
         <input type="text" placeholder="Phone Number" class="right input-field" id="handphone">
       </div>
 
       <div class="sub-group">
-        <label class="left" for="dropdown">*First time playing Escape Room?</label>
+        <label class="left" for="dropdown">*First time playing Team Fortress 2?</label>
 
         <select class="right dropdown" id="dropdown" name="dropdown">
           <option selected disabled>Select an option</option>
           <option value="first">First-Timer</option>
           <option value="never">Never Play Before</option>
+          <option value="idk">I don't know the game</option>
+          <option value="veteran">Veteran</option>
         </select>
       </div>
     </fieldset>
@@ -64,15 +72,16 @@
     <fieldset class="fieldset">
       <div class="sub-group">
         <label class="left">
-          *Which game you played?</label>
+          *Which gamemode do you often play?</label>
 
         <ul style="list-style: none;" class="right">
 
-          <li class="checkbox"><label><input type="checkbox" name="game" value="exodus">Exodus</label></li>
-          <li class="checkbox"><label><input type="checkbox" name="game" value="alcatraz">Alcatraz</label></li>
-          <li class="checkbox"><label><input type="checkbox" name="game" value="aokigahara">Aokigahara<label></li>
-          <li class="checkbox"><label><input type="checkbox" name="game" value="mausoleum">Mausoleum</label></li>
-          <li class="checkbox"><label><input type="checkbox" name="game" value="castiglione">Castiglione</label></li>
+          <li class="checkbox"><label><input type="checkbox" name="game" value="Payload">Payload</label></li>
+          <li class="checkbox"><label><input type="checkbox" name="game" value="5 Capture Point">5 Capture Point</label></li>
+          <li class="checkbox"><label><input type="checkbox" name="game" value="Capture Point">Capture Point<label></li>
+          <li class="checkbox"><label><input type="checkbox" name="game" value="Capture the Flag">Capture the Flag</label></li>
+          <li class="checkbox"><label><input type="checkbox" name="game" value="Attack/Defence">Attack/Defence</label></li>
+          <li class="checkbox"><label><input type="checkbox" name="game" value="King of the Hill">King of the Hill</label></li>
         </ul>
       </div>
     </fieldset>
@@ -88,6 +97,8 @@
           <li class="radio"><label><input name="radio-buttons" value="1" type="radio" class="recommendation">Yes</label></li>
           <li class="radio"><label><input name="radio-buttons" value="2" type="radio" class="recommendation">Maybe</label></li>
           <li class="radio"><label><input name="radio-buttons" value="3" type="radio" class="recommendation">No</label></li>
+          <li class="radio"><label><input name="radio-buttons" value="4" type="radio" class="recommendation">Absolutly
+              not</label></li>
         </ul>
       </div>
     </fieldset>
